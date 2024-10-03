@@ -7,5 +7,6 @@ export default {
       usePolling: true
     }
   },
-  plugins: [react(), vike()]
+  plugins: [react(), vike()],
+  base: "/rac3guessr/"
 }

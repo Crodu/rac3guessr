@@ -5,7 +5,9 @@
     "build": "vite build",
     "server:dev": "node ./server",
     "server:prod": "cross-env NODE_ENV=production node ./server",
-    "lint": "eslint . --max-warnings 0"
+    "lint": "eslint . --max-warnings 0",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
@@ -27,5 +29,9 @@
     "vike": "^0.4.197",
     "vite": "^5.4.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "homepage": "https://crodu.github.io/rac3guessr/"
 }
