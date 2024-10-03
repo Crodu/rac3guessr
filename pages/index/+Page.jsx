@@ -1,18 +1,17 @@
 export { Page }
 
+import { Button, Container } from '@mui/material'
 import { Counter } from './Counter'
 
 function Page() {
   return (
-    <>
-      <h1>Welcome</h1>
-      This page is:
-      <ul>
-        <li>Rendered to HTML.</li>
-        <li>
-          Interactive. <Counter />
-        </li>
-      </ul>
-    </>
+    <Container maxWidth="xl">
+      <h1>RaceGuessr</h1>
+      <h2>
+        <Button variant="contained" color="primary" href='/play'>
+          Play
+        </Button>
+      </h2>
+    </Container>
   )
 }

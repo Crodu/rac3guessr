@@ -5,3 +5,11 @@
 #sidebar a.is-active {
   background-color: #eee;
 }
+
+body {
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
+body a {
+  color: white;
+}

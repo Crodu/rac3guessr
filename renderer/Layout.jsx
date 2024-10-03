@@ -8,6 +8,7 @@ import { PageContextProvider } from './usePageContext'
 import { Link } from './Link'
 import './css/index.css'
 import './Layout.css'
+import { Container } from '@mui/material'
 
 Layout.propTypes = {
   pageContext: PropTypes.any,
@@ -17,17 +18,22 @@ function Layout({ pageContext, children }) {
   return (
     <React.StrictMode>
       <PageContextProvider pageContext={pageContext}>
-        <Frame>
-          <Sidebar>
-            <Logo />
-            <Link href="/">Welcome</Link>
-            <Link href="/about">About</Link>
-            <Link href="/star-wars">Data Fetching</Link>
-          </Sidebar>
+        <Container maxWidth={'xl'}>
+          <TopBar />
           <Content>{children}</Content>
-        </Frame>
+        </Container>
       </PageContextProvider>
     </React.StrictMode>
+  )
+}
+
+const TopBar = () => {
+  return (
+    <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+      <Link href="/">Home</Link>
+      <Link href="/about">About</Link>
+      <Link href="/star-wars">Data Fetching</Link>
+    </div>
   )
 }
 
@@ -39,7 +45,6 @@ function Frame({ children }) {
     <div
       style={{
         display: 'flex',
-        maxWidth: 900,
         margin: 'auto'
       }}
     >
@@ -80,7 +85,7 @@ function Content({ children }) {
         style={{
           padding: 20,
           paddingBottom: 50,
-          minHeight: '100vh'
+          minHeight: '80vh'
         }}
       >
         {children}
