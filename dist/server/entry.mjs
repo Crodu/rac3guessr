@@ -157,9 +157,15 @@ const pageConfigGlobalSerialized = {
 const pageFilesLazyIsomorph1 = /* @__PURE__ */ Object.assign({});
 const pageFilesLazyIsomorph = { ...pageFilesLazyIsomorph1 };
 pageFilesLazy[".page"] = pageFilesLazyIsomorph;
+const pageFilesExportNamesEagerIsomorph1 = /* @__PURE__ */ Object.assign({});
+const pageFilesExportNamesEagerIsomorph = { ...pageFilesExportNamesEagerIsomorph1 };
+pageFilesExportNamesEager[".page"] = pageFilesExportNamesEagerIsomorph;
 const pageFilesLazyServer1 = /* @__PURE__ */ Object.assign({});
 const pageFilesLazyServer = { ...pageFilesLazyServer1 };
 pageFilesLazy[".page.server"] = pageFilesLazyServer;
+const pageFilesExportNamesEagerServer1 = /* @__PURE__ */ Object.assign({});
+const pageFilesExportNamesEagerServer = { ...pageFilesExportNamesEagerServer1 };
+pageFilesExportNamesEager[".page.server"] = pageFilesExportNamesEagerServer;
 const pageFilesEagerRoute1 = /* @__PURE__ */ Object.assign({});
 const pageFilesEagerRoute = { ...pageFilesEagerRoute1 };
 pageFilesEager[".page.route"] = pageFilesEagerRoute;
@@ -195,34 +201,34 @@ const pageFiles = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePro
     "file": "assets/static/renderer_css_index-e8e12f67.FMehjOCd.css",
     "src": "_chunk-!~{00b}~.js"
   },
-  "_chunk-4gXaodwl.js": {
-    "file": "assets/chunks/chunk-4gXaodwl.js",
+  "_chunk-1QMCCYTv.js": {
+    "file": "assets/chunks/chunk-1QMCCYTv.js",
     "name": "_onRenderClient",
     "css": [
       "assets/static/renderer_css_index-e8e12f67.FMehjOCd.css",
       "assets/static/renderer_Layout-031b266d.DarhGNBM.css"
     ]
   },
-  "_chunk-COtwTjoo.js": {
-    "file": "assets/chunks/chunk-COtwTjoo.js",
+  "_chunk-BKKGtC_c.js": {
+    "file": "assets/chunks/chunk-BKKGtC_c.js",
+    "name": "Button",
+    "imports": [
+      "_chunk-1QMCCYTv.js"
+    ]
+  },
+  "_chunk-Bw_wQQl7.js": {
+    "file": "assets/chunks/chunk-Bw_wQQl7.js",
     "name": "useData",
     "imports": [
-      "_chunk-4gXaodwl.js"
+      "_chunk-1QMCCYTv.js"
     ]
   },
   "_chunk-CvOBQiiF.js": {
     "file": "assets/chunks/chunk-CvOBQiiF.js",
     "name": "renderPageClientSide"
   },
-  "_chunk-DM1lVEtM.js": {
-    "file": "assets/chunks/chunk-DM1lVEtM.js",
-    "name": "Button",
-    "imports": [
-      "_chunk-4gXaodwl.js"
-    ]
-  },
   "node_modules/vike/dist/esm/client/client-routing-runtime/entry.js": {
-    "file": "assets/entries/entry-client-routing.CJ39AZ3q.js",
+    "file": "assets/entries/entry-client-routing.B729JSTI.js",
     "name": "entries/entry-client-routing",
     "src": "node_modules/vike/dist/esm/client/client-routing-runtime/entry.js",
     "isEntry": true,
@@ -243,13 +249,13 @@ const pageFiles = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePro
     "src": "renderer/logo.svg"
   },
   "virtual:vike:pageConfigValuesAll:client:/pages/_error": {
-    "file": "assets/entries/pages_error.D_20z2eC.js",
+    "file": "assets/entries/pages_error.B43VmMjR.js",
     "name": "entries/pages/_error",
     "src": "virtual:vike:pageConfigValuesAll:client:/pages/_error",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-4gXaodwl.js"
+      "_chunk-1QMCCYTv.js"
     ],
     "css": [
       "assets/static/renderer_css_index-e8e12f67.FMehjOCd.css",
@@ -260,13 +266,13 @@ const pageFiles = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePro
     ]
   },
   "virtual:vike:pageConfigValuesAll:client:/pages/about": {
-    "file": "assets/entries/pages_about.BYKk74b7.js",
+    "file": "assets/entries/pages_about.BLvHDDDj.js",
     "name": "entries/pages/about",
     "src": "virtual:vike:pageConfigValuesAll:client:/pages/about",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-4gXaodwl.js"
+      "_chunk-1QMCCYTv.js"
     ],
     "css": [
       "assets/static/pages_about_code-10d2d77a.Bv6kHCCM.css",
@@ -278,14 +284,14 @@ const pageFiles = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePro
     ]
   },
   "virtual:vike:pageConfigValuesAll:client:/pages/index": {
-    "file": "assets/entries/pages_index.D2-7IpIj.js",
+    "file": "assets/entries/pages_index.cIi-V-tF.js",
     "name": "entries/pages/index",
     "src": "virtual:vike:pageConfigValuesAll:client:/pages/index",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-4gXaodwl.js",
-      "_chunk-DM1lVEtM.js"
+      "_chunk-1QMCCYTv.js",
+      "_chunk-BKKGtC_c.js"
     ],
     "css": [
       "assets/static/renderer_css_index-e8e12f67.FMehjOCd.css",
@@ -296,16 +302,16 @@ const pageFiles = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePro
     ]
   },
   "virtual:vike:pageConfigValuesAll:client:/pages/play/index": {
-    "file": "assets/entries/pages_play_index.SD4xIZAF.js",
+    "file": "assets/entries/pages_play_index.DLd9klDw.js",
     "name": "entries/pages/play/index",
     "src": "virtual:vike:pageConfigValuesAll:client:/pages/play/index",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-4gXaodwl.js",
+      "_chunk-1QMCCYTv.js",
       "_chunk-CvOBQiiF.js",
-      "_chunk-COtwTjoo.js",
-      "_chunk-DM1lVEtM.js"
+      "_chunk-Bw_wQQl7.js",
+      "_chunk-BKKGtC_c.js"
     ],
     "css": [
       "assets/static/pages_play_index_styles-a72a82e8.DJPlaMqo.css",
@@ -317,14 +323,14 @@ const pageFiles = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePro
     ]
   },
   "virtual:vike:pageConfigValuesAll:client:/pages/star-wars/@id": {
-    "file": "assets/entries/pages_star-wars_-id.C0_vdzX0.js",
+    "file": "assets/entries/pages_star-wars_-id.DmY-8Vw5.js",
     "name": "entries/pages/star-wars/@id",
     "src": "virtual:vike:pageConfigValuesAll:client:/pages/star-wars/@id",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-4gXaodwl.js",
-      "_chunk-COtwTjoo.js"
+      "_chunk-1QMCCYTv.js",
+      "_chunk-Bw_wQQl7.js"
     ],
     "css": [
       "assets/static/renderer_css_index-e8e12f67.FMehjOCd.css",
@@ -335,14 +341,14 @@ const pageFiles = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.definePro
     ]
   },
   "virtual:vike:pageConfigValuesAll:client:/pages/star-wars/index": {
-    "file": "assets/entries/pages_star-wars_index.0nFlbbxU.js",
+    "file": "assets/entries/pages_star-wars_index.1HpZbvDY.js",
     "name": "entries/pages/star-wars/index",
     "src": "virtual:vike:pageConfigValuesAll:client:/pages/star-wars/index",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_chunk-4gXaodwl.js",
-      "_chunk-COtwTjoo.js"
+      "_chunk-1QMCCYTv.js",
+      "_chunk-Bw_wQQl7.js"
     ],
     "css": [
       "assets/static/renderer_css_index-e8e12f67.FMehjOCd.css",

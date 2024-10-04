@@ -111,7 +111,7 @@ function Page() {
     reload();
   };
   return /* @__PURE__ */ jsxs(Container, { maxWidth: "xl", children: [
-    /* @__PURE__ */ jsx("h1", { children: "RaceGuessr" }),
+    /* @__PURE__ */ jsx("h1", { children: "RaceGuessr!" }),
     /* @__PURE__ */ jsx(
       "img",
       {
