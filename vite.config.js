@@ -8,5 +8,5 @@ export default {
     }
   },
   plugins: [react(), vike({ prerender: true })],
-  base: "/rac3guessr/"
+  // base: "/rac3guessr/"
 }
