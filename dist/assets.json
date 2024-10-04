@@ -1,0 +1,175 @@
+{
+  "_chunk-!~{008}~.js": {
+    "file": "assets/static/pages_about_code-10d2d77a.Bv6kHCCM.css",
+    "src": "_chunk-!~{008}~.js"
+  },
+  "_chunk-!~{009}~.js": {
+    "file": "assets/static/pages_play_index_styles-a72a82e8.DJPlaMqo.css",
+    "src": "_chunk-!~{009}~.js"
+  },
+  "_chunk-!~{00a}~.js": {
+    "file": "assets/static/renderer_Layout-031b266d.DarhGNBM.css",
+    "src": "_chunk-!~{00a}~.js"
+  },
+  "_chunk-!~{00b}~.js": {
+    "file": "assets/static/renderer_css_index-e8e12f67.FMehjOCd.css",
+    "src": "_chunk-!~{00b}~.js"
+  },
+  "_chunk-4gXaodwl.js": {
+    "file": "assets/chunks/chunk-4gXaodwl.js",
+    "name": "_onRenderClient",
+    "css": [
+      "assets/static/renderer_css_index-e8e12f67.FMehjOCd.css",
+      "assets/static/renderer_Layout-031b266d.DarhGNBM.css"
+    ]
+  },
+  "_chunk-COtwTjoo.js": {
+    "file": "assets/chunks/chunk-COtwTjoo.js",
+    "name": "useData",
+    "imports": [
+      "_chunk-4gXaodwl.js"
+    ]
+  },
+  "_chunk-CvOBQiiF.js": {
+    "file": "assets/chunks/chunk-CvOBQiiF.js",
+    "name": "renderPageClientSide"
+  },
+  "_chunk-DM1lVEtM.js": {
+    "file": "assets/chunks/chunk-DM1lVEtM.js",
+    "name": "Button",
+    "imports": [
+      "_chunk-4gXaodwl.js"
+    ]
+  },
+  "node_modules/vike/dist/esm/client/client-routing-runtime/entry.js": {
+    "file": "assets/entries/entry-client-routing.CJ39AZ3q.js",
+    "name": "entries/entry-client-routing",
+    "src": "node_modules/vike/dist/esm/client/client-routing-runtime/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_chunk-CvOBQiiF.js"
+    ],
+    "dynamicImports": [
+      "virtual:vike:pageConfigValuesAll:client:/pages/_error",
+      "virtual:vike:pageConfigValuesAll:client:/pages/about",
+      "virtual:vike:pageConfigValuesAll:client:/pages/index",
+      "virtual:vike:pageConfigValuesAll:client:/pages/play/index",
+      "virtual:vike:pageConfigValuesAll:client:/pages/star-wars/@id",
+      "virtual:vike:pageConfigValuesAll:client:/pages/star-wars/index"
+    ]
+  },
+  "renderer/logo.svg": {
+    "file": "assets/static/logo.2_7Lo9tV.svg",
+    "src": "renderer/logo.svg"
+  },
+  "virtual:vike:pageConfigValuesAll:client:/pages/_error": {
+    "file": "assets/entries/pages_error.D_20z2eC.js",
+    "name": "entries/pages/_error",
+    "src": "virtual:vike:pageConfigValuesAll:client:/pages/_error",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-4gXaodwl.js"
+    ],
+    "css": [
+      "assets/static/renderer_css_index-e8e12f67.FMehjOCd.css",
+      "assets/static/renderer_Layout-031b266d.DarhGNBM.css"
+    ],
+    "assets": [
+      "assets/static/logo.2_7Lo9tV.svg"
+    ]
+  },
+  "virtual:vike:pageConfigValuesAll:client:/pages/about": {
+    "file": "assets/entries/pages_about.BYKk74b7.js",
+    "name": "entries/pages/about",
+    "src": "virtual:vike:pageConfigValuesAll:client:/pages/about",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-4gXaodwl.js"
+    ],
+    "css": [
+      "assets/static/pages_about_code-10d2d77a.Bv6kHCCM.css",
+      "assets/static/renderer_css_index-e8e12f67.FMehjOCd.css",
+      "assets/static/renderer_Layout-031b266d.DarhGNBM.css"
+    ],
+    "assets": [
+      "assets/static/logo.2_7Lo9tV.svg"
+    ]
+  },
+  "virtual:vike:pageConfigValuesAll:client:/pages/index": {
+    "file": "assets/entries/pages_index.D2-7IpIj.js",
+    "name": "entries/pages/index",
+    "src": "virtual:vike:pageConfigValuesAll:client:/pages/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-4gXaodwl.js",
+      "_chunk-DM1lVEtM.js"
+    ],
+    "css": [
+      "assets/static/renderer_css_index-e8e12f67.FMehjOCd.css",
+      "assets/static/renderer_Layout-031b266d.DarhGNBM.css"
+    ],
+    "assets": [
+      "assets/static/logo.2_7Lo9tV.svg"
+    ]
+  },
+  "virtual:vike:pageConfigValuesAll:client:/pages/play/index": {
+    "file": "assets/entries/pages_play_index.SD4xIZAF.js",
+    "name": "entries/pages/play/index",
+    "src": "virtual:vike:pageConfigValuesAll:client:/pages/play/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-4gXaodwl.js",
+      "_chunk-CvOBQiiF.js",
+      "_chunk-COtwTjoo.js",
+      "_chunk-DM1lVEtM.js"
+    ],
+    "css": [
+      "assets/static/pages_play_index_styles-a72a82e8.DJPlaMqo.css",
+      "assets/static/renderer_css_index-e8e12f67.FMehjOCd.css",
+      "assets/static/renderer_Layout-031b266d.DarhGNBM.css"
+    ],
+    "assets": [
+      "assets/static/logo.2_7Lo9tV.svg"
+    ]
+  },
+  "virtual:vike:pageConfigValuesAll:client:/pages/star-wars/@id": {
+    "file": "assets/entries/pages_star-wars_-id.C0_vdzX0.js",
+    "name": "entries/pages/star-wars/@id",
+    "src": "virtual:vike:pageConfigValuesAll:client:/pages/star-wars/@id",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-4gXaodwl.js",
+      "_chunk-COtwTjoo.js"
+    ],
+    "css": [
+      "assets/static/renderer_css_index-e8e12f67.FMehjOCd.css",
+      "assets/static/renderer_Layout-031b266d.DarhGNBM.css"
+    ],
+    "assets": [
+      "assets/static/logo.2_7Lo9tV.svg"
+    ]
+  },
+  "virtual:vike:pageConfigValuesAll:client:/pages/star-wars/index": {
+    "file": "assets/entries/pages_star-wars_index.0nFlbbxU.js",
+    "name": "entries/pages/star-wars/index",
+    "src": "virtual:vike:pageConfigValuesAll:client:/pages/star-wars/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-4gXaodwl.js",
+      "_chunk-COtwTjoo.js"
+    ],
+    "css": [
+      "assets/static/renderer_css_index-e8e12f67.FMehjOCd.css",
+      "assets/static/renderer_Layout-031b266d.DarhGNBM.css"
+    ],
+    "assets": [
+      "assets/static/logo.2_7Lo9tV.svg"
+    ]
+  }
+}
