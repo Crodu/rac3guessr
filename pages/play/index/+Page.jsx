@@ -33,7 +33,7 @@ function Page() {
 
   return (
     <Container maxWidth="xl">
-      <h1>RaceGuessr</h1>
+      <h1>RaceGuessr!</h1>
       <img src={pics[0].properties.url} 
         style={{ width: 'auto', height: '500px' }} 
         alt={pics[0].properties.title}
